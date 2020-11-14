@@ -1,0 +1,43 @@
+body{
+  background-color: gold;
+}
+
+
+.box h1{
+  background-color: aqua;
+  color: black !important;
+  font-size: 3rem;
+/* padding-left: 2rem;
+padding-top: 5rem; */
+
+/* padding: 5rem 2rem 0 2rem; */
+padding: 5rem 3rem;
+/* text-align: left; */
+
+  margin-left: 100px;
+  margin-right: 200px;
+
+}
+
+
+
+p, h1{
+  background-color: pink;
+
+}
+
+
+/* .myparent{
+  font-size: 10px;
+} */
+
+
+
+#special-span{
+  background: #000;
+  display: block;
+}
+
+span{
+  background: orange;
+}
