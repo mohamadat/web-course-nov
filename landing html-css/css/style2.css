@@ -1,0 +1,117 @@
+/* css selector */
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.logo{
+
+  text-align: center;
+  height: 300px;
+}
+
+
+.box{
+  background: rgb(0,0, 200);
+  height: 100px;
+  width: 100px;
+  margin-top: 3rem;
+  display: block;
+  position: fixed;
+
+  bottom: 10vh;
+  right: 7vw;
+
+  /* margin-left: 50%;
+  transform: translateX(-50%); */
+
+  margin: 0 auto;
+
+/* display 
+flex*/
+  /* position: fixed;
+  ; */
+
+  /* flexblox
+  grid */
+
+}
+
+
+
+
+.img{
+  height: 100px;
+  width: auto;
+
+}
+
+.container > p{
+  line-height: 30px;
+}
+
+
+#navid{
+  background: gray;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+
+
+}
+
+a{
+  color:gold;
+  font-size: 1.5rem;
+
+}
+
+nav > ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  text-align: center;
+}
+
+body{
+  background: red;
+}
+
+#logo-img{
+  float: left;
+}
+
+
+/* nav{
+  display: flex;
+  justify-content: space-between;
+} */
+
+
+/* #logo-img{
+  float: left;
+} */
+
+
+
+/* mobile */
+@media (max-width: 600px){
+  nav > ul{
+    display: flex; 
+    justify-content: space-around;
+  }
+
+body{
+  background: rgb(67, 67, 197);
+}
+}
+
+@media (max-width: 800px) and (min-width: 600px) {
+
+  body{
+    background: green;
+  }
+  }
