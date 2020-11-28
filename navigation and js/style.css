@@ -1,0 +1,180 @@
+/* CSS HEX
+--tea-green: #caffd0ff;
+--powder-blue: #c9e4e7ff;
+--rose-ebony: #63474dff;
+--jonquil: #f9c80eff;
+--orange-red: #f86624ff; */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5{
+  margin-bottom: 1rem;
+
+}
+
+.logo{
+  display: inline-block;
+  height: 60px;
+  margin-left: 16px;
+  
+}
+
+nav{
+  background-color: #c9e4e7ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+}
+
+nav ul li{
+  line-height: 40px;
+  margin-top: 2px;
+  text-transform: uppercase;
+  padding: 0 .5rem;
+  border-radius: 4px;
+  transition:  all 2s;
+
+}
+
+nav a{
+  text-decoration: none;
+
+}
+
+nav ul li:hover{
+  background-color: blueviolet;
+  cursor: pointer;
+  color: aliceblue;
+}
+
+/* nav ul li a:hover{
+  color: #fff;
+}
+ */
+
+footer{
+  display: flex;
+  justify-content: space-around;
+}
+footer ul{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+footer a{
+  text-decoration: none;
+}
+footer h4{
+  text-align: center;
+}
+
+footer>div{
+  padding-top: 3rem;
+}
+
+.social{
+  display: flex;
+  flex-direction: column;
+
+}
+.social i{
+  font-size: 30px;
+  color: blueviolet;
+  background-color: aquamarine;
+  padding: 5px;
+  border-radius: 50%;
+}
+ #check, #humberger{
+  display: none;
+  /* visibility: hidden; */
+}
+
+
+
+@media (max-width: 800px){
+
+body{
+background-color:  #63474dff;
+}
+
+
+}
+
+ @media (max-width: 400px){
+   #humberger{
+     display: inline-block;
+     position: absolute;
+     top: 0;
+     right: 0;
+     width: 20px;
+   }
+  #nav, #check{
+    display: none;
+    /* visibility: hidden; */
+  }
+
+  #check:checked ~ div#nav{
+    display: none;
+
+  }
+  
+        nav{
+          display: block;
+          text-align: center;
+        }
+
+        nav ul{
+          text-align: center;
+        }
+      
+
+        .logo{
+          height: 30px;
+        }
+      #nav{
+        display: block;
+        /* background: red; */
+      }
+
+      body{
+        background-color: ;
+      }
+
+      nav ul{
+        width: 100%;
+        flex-direction: column;
+        align-items: center ;
+
+      }
+
+      .nav-item{
+        margin: 5px auto;
+      }
+
+      nav ul li{
+        width: 90vw;
+
+      }
+
+      footer{
+        flex-direction: column;
+      }
+
+      footer ul{
+        text-align: center;
+      }
+
+
+ }
+
+
+
