@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,300&display=swap');
+
+
+
+nav{
+  background-color: rgb(49, 1, 86);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+
+}
+
+*{
+  scroll-behavior: smooth;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+
+.p-0{
+  padding: 0;
+}
+.m-0{
+  margin: 0;
+}
+
+.all-0{
+  margin: 0;
+  padding: 0;
+}
+
+/* h1{
+  margin: 0;
+  padding: 0;
+} */
+
+
+#nav-bar{
+  /* background: #000; */
+  display: flex;
+  justify-content: space-around;
+  width: 60vw;
+}
+
+#nav-bar a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: all 1s;
+  color: rgb(48, 48, 231);
+
+  /* margin-right: ; */
+}
+
+#nav-bar a:hover{
+  color: bisque;
+  text-decoration: underline;
+  font-size: 2rem;
+
+}
+
+main{
+  background-image: url("../img/bg1.jpg");
+  height: 100vh;
+}
+
+#captions{
+  background-color: rgba(240, 248, 255, 0.7);
+  width: 70vw;
+  margin-top: 20vh;
+  padding: 2rem 1rem;
+  margin-left: 10px;
+  border-left: 5px solid orange;
+}
+
+
+footer{
+  padding: 4rem;
+  text-align: center;
+
+}
+
+#social-media i{
+  color: blue;
+  font-size: 40px;
+  margin: 0.5rem;
+  background-color: aliceblue;
+  height: 50px;
+  width: 50px;
+  border-radius: 24px;
+
+}
+
+.bg-mypink{
+  background-color:  rgb(49, 1, 86);
+}
+
+.text-lite{
+color: azure;
+}
+
+
+section{
+  min-height: 50vh;
+  padding: 1rem;
+}
+
+
+
+/* @media(min-width: 400px){
+
+
+} */
