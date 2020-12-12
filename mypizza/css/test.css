@@ -1,0 +1,33 @@
+#imgbx{
+  /* background-color: black; */
+  background-image: url("../img/Four_Tasty_XXL-5850.png");
+
+  /* background-repeat: no-repeat; */
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 300px;
+ 
+
+
+}
+
+#imgbx h1{
+  color: greenyellow;
+  text-transform: uppercase;
+  /* background-color: rgba(165, 42, 42, 0.308); */
+  opacity: 1;
+
+}
+
+.transparent{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  background-color: aqua;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+
+}

@@ -1,0 +1,66 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .title {
+  font-weight: bold;
+  margin: 15px 0;
+}
+.container article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px;
+}
+.container article.img-right {
+  flex-direction: row-reverse;
+}
+.container article .imgBx {
+  max-width: 300px;
+  position: relative;
+  max-height: 200px;
+  min-width: 300px;
+  min-height: 200px;
+  margin: 0 15px;
+  clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+}
+.container article .imgBx:hover img {
+  clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+  content: url("https://i.ibb.co/KGcbKcz/cheese.jpg");
+}
+.container article .imgBx img {
+
+  width: 100%;
+  position: relative;
+  height: 100%;
+  z-index: 1;
+  transition: 0.5s ease;
+  clip-path: polygon(100% 100%, 0% 100%, 50% 0%);
+  background-image: url("https://i.ibb.co/jDLb97v/spinach-leaves.jpg");
+  object-fit: cover;
+}
+.container article .description {
+  margin: 0 15px;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.btn{
+  background-color: black;
+  color: blueviolet;
+  text-decoration: none;
+
+  display: block;
+  width: 100px;
+  margin-top: 2rem;
+  border-radius: 14px;
+  padding: 2rem 3rem;
+}
+
+.btn:hover{
+  background-color: blueviolet;
+  color: black;
+}
