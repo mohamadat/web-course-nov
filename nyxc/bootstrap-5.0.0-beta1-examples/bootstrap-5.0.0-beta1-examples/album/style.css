@@ -1,0 +1,95 @@
+/* --flickr-pink: #;
+--byzantine: #b5179eff;
+--purple: #7209b7ff;
+--purple-2: #560badff;
+--trypan-blue: #480ca8ff;
+--trypan-blue-2: #3a0ca3ff;
+--persian-blue: #3f37c9ff;
+--ultramarine-blue: #4361eeff;
+--dodger-blue: #4895efff;
+--vivid-sky-blue: #4cc9f0ff; */
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+.nyx-font{
+  font-family: 'Satisfy', cursive;
+
+}
+
+
+#main-head{
+  background-image: linear-gradient(180deg, rgba(56, 35, 43, 0.556) 0%, rgb(6, 6, 9) 100%),
+  url('../images/4kbg.jpg');
+
+  background-size: cover;
+
+}
+
+#main-head h1{
+  color: rgb(198, 204, 204);
+}
+
+.btn-primary {
+  color: rgb(198, 204, 204);
+  background-color: #560badff;
+  border-color: #560badff;
+}
+
+.btn-secondary {
+  color: rgb(198, 204, 204);
+  background-color: transparent;
+  border-color: #b5179eff;
+}
+
+.btn:hover{
+  background-color: gold;
+  color: #560badff;
+
+}
+
+
+ul.filter{
+  list-style: none;
+  color: rgb(198, 204, 204);
+  background-color: #560badff;
+  width: 100%;
+}
+
+ul.filter>li:hover{
+  background-color: rgba(133, 41, 237, 0.357);
+
+}
+
+
+ul.filter>li{
+
+  display: block;
+  margin-top: 30px;
+  padding: 1rem 0.2rem;
+
+}
+
+.one-color-crl{
+  display: inline-block;
+  background: pink;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 0.4rem;
+}
+
+.color-box{
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+
+  ul.filter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+
+}
