@@ -89,3 +89,17 @@ ul.filter > li {
 		align-items: center;
 	}
 }
+
+.cart-row i:hover {
+	color: red;
+}
+.cart-row i {
+	font-size: 2.4rem;
+}
+
+.cart-row input {
+	width: 100px;
+	font-size: large;
+	background: rgb(211, 158, 211);
+	color: rgb(85, 1, 1);
+}

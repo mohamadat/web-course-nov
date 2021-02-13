@@ -12,3 +12,11 @@
 	display: block;
 	color: red;
 }
+
+.hide {
+	background-color: aqua;
+	background-image: url("img/img1.png");
+	background-position: center;
+
+	background-size: cover;
+}
