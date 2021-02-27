@@ -74,6 +74,7 @@ if (allTitles.length > 0) {
     }
     else{
       addCARTrow(title, price);
+      // git
     }
 }
   
