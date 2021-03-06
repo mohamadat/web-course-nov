@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Using Rest Endpoint:</h1>
+  <h2>Results</h2>
+  <h3></h3>
+  <input id="myinput" type="text" value="">
+  <button>Get</button>
+  <button id="postbtn">Post</button>
+
+
+
+  <div>
+    <input type="text" id="tobedel">
+    <button id="deletebtn">Delete</button>
+
+  </div>
+  <script>
+async function postData(url = '', data = {}, x = '') {
+  const response = await fetch(url, 
+  {
+    method: 'get'
+ 
+  });
+  return response.json(); 
+}
+
+
+function getTitle(){
+  postData('http://localhost:8000/api/techs/', { answer: 42 })
+  .then(data => {
+    console.log(); 
+    let title = data.data[3].title;
+    
+    document.getElementsByTagName('input')[0].value = title;
+  });
+}
+
+
+  document.getElementsByTagName('button')[0].addEventListener("click", getTitle);
+
+  </script>
+
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+
+  <script>
+
+//here starts jquery code
+$(function() {
+
+  $.ajax({
+  method: "get",
+  url: "http://localhost:8000/api/techs",
+  success: function(mydata){
+    $('input')[0].value = mydata.data[1].title;
+    // console.log($('input')[0]);
+  },
+  error: function(){
+    alert("error");
+  }
+});
+
+
+
+function mydelete(num){
+  $.ajax({
+  method: "Delete",
+  url: "http://localhost:8000/api/techs/" + num,
+  success: function(result){
+    console.log("deleted");
+  }
+});
+}
+
+
+
+$("#deletebtn").click( function(){
+  mydelete(
+    $('#tobedel')[0].value
+  );
+console.log($('#tobedel'));
+});
+
+
+
+});
+
+  </script>
+
+</body>
+</html>
