@@ -48,7 +48,7 @@ fun2(5,6);
 
 function doSomthing(){
   // heading = 5;
-  heading.innerHTML = "hacked!!!";
+  // heading.innerHTML = "hacked!!!";
   
 if (state == true) {
   img1.src  = ("/Untitled.png");
