@@ -1,0 +1,22 @@
+#nav-item:hover > #mm,
+#link:hover {
+	display: block;
+	color: aquamarine;
+}
+.hide {
+	display: none;
+}
+
+.myDIV:hover + .hide,
+.myDIV + .hide:hover {
+	display: block;
+	color: red;
+}
+
+.hide {
+	background-color: aqua;
+	background-image: url("img/img1.png");
+	background-position: center;
+
+	background-size: cover;
+}

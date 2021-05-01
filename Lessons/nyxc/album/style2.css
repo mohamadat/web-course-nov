@@ -1,0 +1,162 @@
+   /* _______________start details page _____________________ */
+
+   .bg-gray {
+    background-color: #444;
+ 
+  }
+ 
+ .design-color{
+   color:#b5179e ;
+ 
+ }
+ 
+ .single-product {
+   margin-top :70px;
+ } 
+ 
+ .heart{
+   transition:transform 0.10s;
+ }
+ 
+ .heart i:hover{
+   transform: translateY(-5px);
+   color: #7209b7ff;
+   font-size: 1.5em;
+ }
+ .heart button{
+  border: none;
+  background-color: #444;
+  
+  
+ }
+ .info {
+   transition:transform 0.10s;
+ }
+ .cart:hover{
+   transform: translateY(-5px);
+   color: #7209b7ff;
+   font-size: 2em;
+ }
+ 
+ .unline {text-decoration: none!important;
+   }
+ 
+ 
+ .space-between {
+   display: flex;
+   justify-content: space-between;
+ }
+ 
+ .price {
+   font-size: 20px;
+   font-weight: bold;
+   padding-top: 20px;
+ 
+ }
+ .h2 {
+   margin: 30px 0;
+   font-style: italic;
+   text-shadow: 2px 2px 2px;
+ }
+ .h2p{
+   font-size: 1.5em;
+   font-style: italic;
+   margin: 30px 0 ;
+ }
+ .fontcolor {
+   
+   color: rgb(198, 204, 204) ;
+ 
+ }
+ .single-product input{
+ border: 1px solid #b5179e;
+   font-weight: bold;
+   text-align: center;
+   width: 30px;
+   color:#560badff ;
+ }
+ .circle {
+   border-radius: 50% ;
+   box-shadow: 1px 1px 1px 1px  #b5179e ;
+   border :none;
+ 
+   
+ }
+ .div-bag {
+  
+   margin-top: 50px;
+   align-items: center;
+ }
+ 
+ .product-description {
+  margin:50px;
+ }
+ 
+ .hr {
+   height: 3px!important;
+   
+ 
+ }
+ 
+ .bg{
+   background-image:
+   url('../images/bg3.jpg');
+   height: 550px;
+   position: relative;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+ }  
+ .text {
+   color: rgb(198, 204, 204);
+ 
+ }  
+ 
+ 
+ .like-pro a {
+   text-decoration: none;
+ }
+ .like-pro .col-md-3 {
+   margin: 20px 0;
+   padding: 10px;
+ 
+ 
+ }
+ .like-pro .col-md-3 h6 {
+   height: 50px;
+   padding: 30px 0;
+   margin: 30px 0;
+  
+ }
+ .center{
+   display: flex;
+   justify-content: center;
+ }
+ 
+ 
+ 
+ 
+ .one{
+   order: 0;
+ }
+ .two {
+   order: 0;
+ }
+ .three {
+  order: 0; 
+ }
+ 
+ 
+ @media only screen and (max-width: 767px){
+   .one{order: 2;}
+   .two {order: 1;}
+   .three{order: 3;}
+    .slider-padding {
+       padding: 0 1em;
+   }
+ 
+  
+ 
+ }
+     /* ___________end details page _________________ */
